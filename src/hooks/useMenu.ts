@@ -1,6 +1,8 @@
+import { IconType } from "react-icons";
 
-export interface Menus {
-    id: string;
-    name: string;
-    logo: string;
+
+export interface Tasks {
+  id: number;
+  name: string;
+  logo: string | IconType;
 }
