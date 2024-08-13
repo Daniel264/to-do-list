@@ -8,6 +8,11 @@ const Menu = () => {
         <input className="w-max h-7 pl-7 outline-none" placeholder="Search..." type="text" />
         <IoSearch size={20} className="absolute text-gray-500 top-24  "/>
       </div>
+
+      <div className="p-10">
+        <h3 className="font-semibold text-base">TASKS</h3>
+      </div>
+
     </>
   );
 };
