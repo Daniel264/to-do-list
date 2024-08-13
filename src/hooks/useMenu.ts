@@ -6,3 +6,9 @@ export interface Tasks {
   name: string;
   logo: string | IconType;
 }
+
+export interface Lists {
+  id: number;
+  name: string;
+  logo: string | IconType
+}

@@ -3,7 +3,7 @@ import { Tasks } from "../hooks/useMenu";
 import { BiCalendar } from "react-icons/bi";
 import { CiStickyNote } from "react-icons/ci";
 import { MdUpcoming } from "react-icons/md";
-const MenuList = () => {
+const Task = () => {
   const tasks: Tasks[] = [
     { id: 1, name: "Upcoming", logo: MdUpcoming },
     { id: 2, name: "Today", logo: FaTasks },
@@ -26,4 +26,4 @@ const MenuList = () => {
   );
 };
 
-export default MenuList;
+export default Task;

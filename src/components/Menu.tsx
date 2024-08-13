@@ -1,5 +1,6 @@
 import { IoSearch } from "react-icons/io5";
-import MenuList from "./MenuList";
+import Task from "./Task";
+import List from "./List";
 const Menu = () => {
   return (
     <>
@@ -15,7 +16,11 @@ const Menu = () => {
 
       <div className="p-10">
         <h3 className="font-semibold text-base">TASKS</h3>
-        <MenuList />
+        <Task />
+      </div>
+      <div className="p-10">
+        <h3 className="font-semibold text-base">LISTS</h3>
+        <List />
       </div>
     </>
   );
