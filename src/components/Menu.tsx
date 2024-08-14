@@ -27,6 +27,10 @@ const Menu = () => {
         <h3 className="font-semibold">TAGS</h3>
         <Tags />
       </div>
+      <div className="px-10 pt-20">
+        <p>Settings</p>
+        <p>Sign out</p>
+      </div>
     </>
   );
 };
