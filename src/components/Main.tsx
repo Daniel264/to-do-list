@@ -1,6 +1,9 @@
 import { CgAdd } from "react-icons/cg";
 
 const Main = () => {
+    const taskList = [
+
+    ]
   return (
     <>
       <h1 className="font-semibold text-5xl">Today</h1>
