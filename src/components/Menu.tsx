@@ -8,7 +8,7 @@ const Menu = () => {
       <div className="p-10 relative">
         <h1 className="font-semibold text-2xl pb-5">Menu</h1>
         <input
-          className="w-max h-7 pl-7 outline-none"
+          className="w-max h-7 pl-7 outline-none bg-inherit"
           placeholder="Search..."
           type="text"
         />
